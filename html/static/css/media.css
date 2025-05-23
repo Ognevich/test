@@ -1,0 +1,35 @@
+@media(max-width: 720px){
+    .flex-container {
+        background-color: blue;
+    }
+   
+   .flex-container .flex-container-inside {
+    font-size: 30px;
+   }
+
+}
+
+@media(max-width: 480px){
+    .flex-container {
+        background-color: red;
+    }
+   
+   .flex-container .flex-container-inside {
+    font-size: 50px;
+   }
+
+}
+
+
+@media(max-width: 360px){
+    .flex-container {
+        background-color: purple;
+            width: 250px;
+    }
+   
+   .flex-container .flex-container-inside {
+        width: 25px;
+        height: 25px;
+   }
+
+}
